@@ -1,0 +1,36 @@
+.rewiev {
+    min-height: 950px;
+    padding-bottom: 20px;
+    &__content {
+       margin-top: 20px; 
+    }
+    &__item {
+        display: flex;
+        margin: 50px 0;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__text {
+        width: 660px;
+        margin-left: 54px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
